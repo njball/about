@@ -1,0 +1,190 @@
+body.bootstrap-override {
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+.container {
+  margin-left: 0;
+  max-width: 1920px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+header {
+  background-color: #166395;
+  border-bottom: 1px solid #466995;
+  /*position: fixed;*/
+  /*width: 100%;*/
+  min-height: 5em;
+  align-self: center;
+  z-index: 10;
+  padding-left: 30px;
+}
+
+.header-row {
+  margin-left: 0;
+}
+
+
+.jumbotron {
+  background-image: url('../img/Wooden-desk.jpg');
+  background-size: cover;
+  border-radius: 0;
+  align-self: center;
+  padding: 2rem 2rem;
+}
+
+/*.jumbotron.row {
+  max-height: 600px;
+}*/
+
+.jumbotron img {
+  max-width: 650px;
+  width: auto;
+  align-self: center;
+}
+
+
+nav {
+  display: inline-block;
+}
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+li {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width:80px;
+}
+
+li:hover {
+  color: #DBE9EE;
+}
+
+.header-row a {
+  color: #FFF;
+}
+
+.header-row a:hover {
+  color: #DBE9EE;
+  text-decoration: none;
+}
+
+
+h1 {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  align-self: center;
+}
+
+h2 {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 100;
+  padding: 30px;
+ /* margin: 0 auto 20px auto;*/
+}
+
+h3 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+h4 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase
+}
+
+p {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #DBE9EE;
+  text-align: center;
+  height: 100px;
+}
+
+.welcome {
+  background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+
+.question {
+  text-align: center;
+  position: relative;  
+  top: 40px;
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+  height: 130px;
+  width: 150px;
+}
+
+.answer:hover {
+  background: #C0D6DF;
+  color: #FFF;
+}
+
+.date-square p {
+  padding-left: 120px;
+  padding-bottom: 0px;
+  height: 1em;
+}
+
+p.date-square-year {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+
+p.date-square-month {
+  color: #466995;
+font-family: 'Oswald', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
+/*Put a box around the page in the nav links that we're currently on*/
+.selected-page {
+  font-style: bold;
+  padding: 8px 18px;
+  border: 1px solid #ffffff;
+}
